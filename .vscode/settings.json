@@ -1,4 +1,5 @@
 {
     "files.encoding": "utf8",
-    "explorer.excludeGitIgnore": true
+    "explorer.excludeGitIgnore": true,
+    "git-graph.fileEncoding": "utf8bom"
 }
