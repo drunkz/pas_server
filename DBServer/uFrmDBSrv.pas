@@ -1,4 +1,4 @@
-unit uFrmDBSrv;
+﻿unit uFrmDBSrv;
 
 interface
 
@@ -8,6 +8,7 @@ uses
 
 type
   TFrmDBSrv = class(TForm)
+    procedure FormCreate(Sender: TObject);
   private
   public
   end;
@@ -17,7 +18,15 @@ var
 
 implementation
 
+uses
+  FormUtil;
+
 {$R *.dfm}
+
+procedure TFrmDBSrv.FormCreate(Sender: TObject);
+begin
+  FormSetBaseProp(Self);
+end;
 
 end.
 
