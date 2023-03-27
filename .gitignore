@@ -1,2 +1,7 @@
+__history/
+__recovery/
 Component/
 bin/
+*.res
+*.identcache
+*.dproj.local
