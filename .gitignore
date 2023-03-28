@@ -5,3 +5,4 @@ bin/
 *.res
 *.identcache
 *.dproj.local
+*.vlb

@@ -12,4 +12,13 @@ object FrmDBSrv: TFrmDBSrv
   Font.Style = []
   OnCreate = FormCreate
   TextHeight = 15
+  object mmoLog: TMemo
+    Left = 200
+    Top = 200
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'mmoLog')
+    TabOrder = 0
+  end
 end
