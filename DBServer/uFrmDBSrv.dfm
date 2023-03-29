@@ -13,12 +13,21 @@ object FrmDBSrv: TFrmDBSrv
   OnCreate = FormCreate
   TextHeight = 15
   object mmoLog: TMemo
-    Left = 200
-    Top = 200
-    Width = 185
-    Height = 89
+    Left = 120
+    Top = 96
+    Width = 401
+    Height = 193
     Lines.Strings = (
       'mmoLog')
     TabOrder = 0
+  end
+  object btn1: TButton
+    Left = 272
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = 'btn1'
+    TabOrder = 1
+    OnClick = btn1Click
   end
 end
